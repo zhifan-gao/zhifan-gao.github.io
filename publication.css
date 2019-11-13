@@ -1,0 +1,10 @@
+
+ul {
+	list-style-type: disc;
+}
+
+a.link {
+	color: #0000FF;
+	font-weight: bold;
+	text-decoration: none;
+}
