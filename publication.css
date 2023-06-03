@@ -1,10 +1,86 @@
 
 ul {
-	list-style-type: disc;
+	/* list-style-type: disc; */
 }
 
-a.link {
+/*
+.photo{
+	float: left;
+	width: 200;
+}
+*/
+
+.title{
+	font-size:15px;
+	padding:1px;
+	margin-left:215px;
+	font-weight:bold
+}
+
+.author{
+	font-size:15px;
+	padding:1px;
+	margin-left:215px;
+	font-style:italic;
+}
+
+.source{
+	font-size:15px;
+	padding:1px;
+	margin-left:215px;
+}
+
+.source_name{
+	display:inline-block;; /* 为了让div不换行 */
+	font-style:normal; /* 斜体是 italic */
+}
+
+.link{
 	color: #0000FF;
 	font-weight: bold;
 	text-decoration: none;
+	font-size:15px;
+	padding:1px;
+	margin-left:215px;
 }
+
+.img_position{
+	float:left;
+	margin-bottom:10px;
+	padding-left:3px;
+	border-bottom:solid 1px #EEE;
+}
+
+.img_style{
+	width:200px;
+	height:110px;
+}
+
+.paper{
+	clear:left;
+}
+
+.paper_list{
+	margin-top:50px;
+}
+
+.hr_style{
+	width:100%;
+	height:0.7px; 
+	border:none; 
+	background-color:#E8E8E8;
+	
+	/*background-color:#ffffff;
+	margin:0px;
+	padding:0px;
+	border-width:0px;*/
+}
+
+.my_name{
+	display:inline-block;; /* 为了让div不换行 */
+	font-style:normal; /* 斜体是 italic */
+	font-weight:bold;
+}
+
+
+
