@@ -8,4 +8,10 @@ ol, ul {
 	font-size: 80%;
 }
 
+.photo{
+	float: left;
+	width: 200;
+
+}
+
 
